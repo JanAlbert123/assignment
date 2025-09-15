@@ -1,3 +1,4 @@
 During the setup process, I faced several challenges that tested my patience. At first, it was not easy to make sure everything would work properly. There were different problems that I encountered while making this assignment. Some of the main challenges were the setup, the venv and Django is not recognized it has error in the PowerShell terminal, and an error in my code.
 
+
 To solve these issues, I carefully reviewed the steps in the presentation that my professor sent and also searched the internet for solutions to the Django and venv problem. It was my first time encountering such an error, so I relied on online guides to help me. For the template error, I double-checked my assignment structure while following the steps given to us, and I found out that I had missed a step of creating a folder before the HTML files.
