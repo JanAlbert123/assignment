@@ -1,0 +1,13 @@
+[ ] Install python in my laptop
+[ ] Create and activate venv
+[ ] Install Django using pip
+[ ] Verify version of the Django
+[ ] Create a Django project
+[ ] Run the Development Server
+[ ] Create a base and home template
+[ ] Add an about html
+[ ] Install a Github
+[ ] Initialize a Git repository
+[ ] Add a project  files to the repo
+[ ] Make a reflection and checklist
+[ ] Add the reflection and checklist files to the repo
