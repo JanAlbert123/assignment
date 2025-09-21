@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}{{ announcement.title }}{% endblock %}
+{% block content %}
+<h2>{{ announcement.title }}</h2>
+<p>
+    {{ announcement.content|safe }}
+</p>
+<p>
+    <button id="toggleBtn" onclick="toggleMore()">Read more</button>
+</p>
+<script>
+function toggleMore() {
+    var more = document.querySelector('.more');
+    var btn = document.getElementById('toggleBtn');
+    if (more.style.display === 'none') {
+        more.style.display = 'inline';
+        btn.textContent = 'Show less';
+    } else {
+        more.style.display = 'none';
+        btn.textContent = 'Read more';
+    }
+}
+</script>
+{% endblock %}
